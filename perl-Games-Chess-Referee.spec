@@ -14,7 +14,7 @@ BuildRequires:	perl-Games-Chess
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 Requires:	perl-Games-Chess >= 0.002-3
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Games-Chess-Referee module provides a mechanism to interpret (almost) standard 
