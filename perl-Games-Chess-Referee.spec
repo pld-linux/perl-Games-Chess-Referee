@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Games
 %define	pnam	Chess-Referee
-Summary:	Games-Chess-Referee perl module
-Summary(pl):	Modu³ perla Games-Chess-Referee
+Summary:	Games::Chess::Referee perl module
+Summary(pl):	Modu³ perla Games::Chess::Referee
 Name:		perl-Games-Chess-Referee
 Version:	0.002
 Release:	8
@@ -17,14 +17,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Games-Chess-Referee module provides a mechanism to interpret (almost)
+Games::Chess::Referee module provides a mechanism to interpret (almost)
 standard algebraic chess notation and to print out the resulting
 positions. It makes use of the Games::Chess::Position and
 Games::Chess::Piece classes by Gareth Rees, adding the chess rules and
 more application functionality.
 
 %description -l pl
-Modu³ Games-Chess-Referee udostepnia mechanizm interpretacji (prawie)
+Modu³ Games::Chess::Referee udostepnia mechanizm interpretacji (prawie)
 standardowej algebraicznej notacji szachowej i wy¶wietlania
 wyj¶ciowych pozycji. Wykorzystuje klasy autorstwa Garetha Ressa
 Games::Chess::Position i Games::Chess::Piece, dodaj±c regu³y szachowe
