@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Games::Chess::Referee
 Summary(zh_CN):	Games::Chess::Referee Perl дё©И
 Name:		perl-Games-Chess-Referee
 Version:	0.002
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
