@@ -1,23 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Games
 %define		pnam	Chess-Referee
-Summary:	Games::Chess::Referee Perl module
-Summary(cs):	Modul Games::Chess::Referee pro Perl
-Summary(da):	Perlmodul Games::Chess::Referee
-Summary(de):	Games::Chess::Referee Perl Modul
-Summary(es):	Módulo de Perl Games::Chess::Referee
-Summary(fr):	Module Perl Games::Chess::Referee
-Summary(it):	Modulo di Perl Games::Chess::Referee
-Summary(ja):	Games::Chess::Referee Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Games::Chess::Referee ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Games::Chess::Referee
-Summary(pl):	Modu³ Perla Games::Chess::Referee
-Summary(pt):	Módulo de Perl Games::Chess::Referee
-Summary(pt_BR):	Módulo Perl Games::Chess::Referee
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Games::Chess::Referee
-Summary(sv):	Games::Chess::Referee Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Games::Chess::Referee
-Summary(zh_CN):	Games::Chess::Referee Perl Ä£¿é
+Summary:	Games::Chess::Referee - work with chess positions and games
+Summary(pl):	Games::Chess::Referee - operacje na pozycjach i partiach szachowych
 Name:		perl-Games-Chess-Referee
 Version:	0.002
 Release:	11
