@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Games
-%define		pnam	Chess-Referee
+%define	pdir	Games
+%define	pnam	Chess-Referee
 Summary:	Games::Chess::Referee - work with chess positions and games
 Summary(pl):	Games::Chess::Referee - operacje na pozycjach i partiach szachowych
 Name:		perl-Games-Chess-Referee
