@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Games
 %define	pnam	Chess-Referee
-%include	/usr/lib/rpm/macros.perl
 Summary:	Games-Chess-Referee perl module
 Summary(pl):	Modu³ perla Games-Chess-Referee
 Name:		perl-Games-Chess-Referee
 Version:	0.002
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -32,7 +31,7 @@ Games::Chess::Position i Games::Chess::Piece, dodaj±c regu³y szachowe
 i zwiêkszaj±c funkcjonalno¶æ aplikacji.
 
 %prep
-%setup -q -n Games-Chess-Referee-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
