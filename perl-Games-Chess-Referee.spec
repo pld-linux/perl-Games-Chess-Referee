@@ -24,6 +24,7 @@ Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	6fda8f33fee2cdceffb26d72508d5ffa
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Games-Chess
 BuildRequires:	rpm-perlprov >= 4.1-13
