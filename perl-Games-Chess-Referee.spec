@@ -9,7 +9,7 @@ Summary:	Games::Chess::Referee - work with chess positions and games
 Summary(pl):	Games::Chess::Referee - operacje na pozycjach i partiach szachowych
 Name:		perl-Games-Chess-Referee
 Version:	0.002
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
