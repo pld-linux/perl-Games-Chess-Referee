@@ -35,7 +35,7 @@ i zwiêkszaj±c funkcjonalno¶æ aplikacji.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
