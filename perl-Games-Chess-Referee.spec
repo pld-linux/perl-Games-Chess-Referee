@@ -21,7 +21,8 @@ Summary(zh_CN):	Games::Chess::Referee Perl Ä£¿é
 Name:		perl-Games-Chess-Referee
 Version:	0.002
 Release:	11
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6fda8f33fee2cdceffb26d72508d5ffa
