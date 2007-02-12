@@ -6,7 +6,7 @@
 %define		pdir	Games
 %define		pnam	Chess-Referee
 Summary:	Games::Chess::Referee - work with chess positions and games
-Summary(pl):	Games::Chess::Referee - operacje na pozycjach i partiach szachowych
+Summary(pl.UTF-8):   Games::Chess::Referee - operacje na pozycjach i partiach szachowych
 Name:		perl-Games-Chess-Referee
 Version:	0.002
 Release:	12
@@ -29,12 +29,12 @@ resulting positions. It makes use of the Games::Chess::Position and
 Games::Chess::Piece classes by Gareth Rees, adding the chess rules and
 more application functionality.
 
-%description -l pl
-Modu³ Games::Chess::Referee udostêpnia mechanizm interpretacji
-(prawie) standardowej algebraicznej notacji szachowej i wy¶wietlania
-wyj¶ciowych pozycji. Wykorzystuje klasy autorstwa Garetha Ressa
-Games::Chess::Position i Games::Chess::Piece, dodaj±c regu³y szachowe
-i zwiêkszaj±c funkcjonalno¶æ aplikacji.
+%description -l pl.UTF-8
+ModuÅ‚ Games::Chess::Referee udostÄ™pnia mechanizm interpretacji
+(prawie) standardowej algebraicznej notacji szachowej i wyÅ›wietlania
+wyjÅ›ciowych pozycji. Wykorzystuje klasy autorstwa Garetha Ressa
+Games::Chess::Position i Games::Chess::Piece, dodajÄ…c reguÅ‚y szachowe
+i zwiÄ™kszajÄ…c funkcjonalnoÅ›Ä‡ aplikacji.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
