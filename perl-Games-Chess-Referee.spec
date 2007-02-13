@@ -6,7 +6,7 @@
 %define		pdir	Games
 %define		pnam	Chess-Referee
 Summary:	Games::Chess::Referee - work with chess positions and games
-Summary(pl.UTF-8):   Games::Chess::Referee - operacje na pozycjach i partiach szachowych
+Summary(pl.UTF-8):	Games::Chess::Referee - operacje na pozycjach i partiach szachowych
 Name:		perl-Games-Chess-Referee
 Version:	0.002
 Release:	12
