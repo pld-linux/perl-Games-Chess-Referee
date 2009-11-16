@@ -9,7 +9,7 @@ Summary:	Games::Chess::Referee - work with chess positions and games
 Summary(pl.UTF-8):	Games::Chess::Referee - operacje na pozycjach i partiach szachowych
 Name:		perl-Games-Chess-Referee
 Version:	0.003
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -22,7 +22,7 @@ Requires:	perl-Games-Chess >= 0.002-3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautorequire perl(Games::Chess::Piece)
+%define		_noautoreq	perl(Games::Chess::Piece)
 
 %description
 Games::Chess::Referee module provides a mechanism to interpret
